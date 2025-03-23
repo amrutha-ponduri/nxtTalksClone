@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background-top {
+    padding: 20px;
+    padding-top: 60px;
+    min-height: 100vh;
+    background-size: cover;
+
+}
+
+.podcast-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+.logo-description-decor {
+    width: 200px;
+    text-align: right;
+    color: white;
+}
+
+.speaker-description {
+    color: white;
+    font-size: 45px;
+}
+
+.speaker-subject {
+    color: #9EEB49;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.watch-trailer-button {
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+
+.width-button {
+    width: 200px;
+}
+
+.striked-decor {
+    text-align: left;
+}
+
+.price-decor {
+    font-size: 13px;
+}
+
+.free-decor {
+    color: #9EEB49;
+    font-size: 25px;
+    font-weight: bold;
+    transform: translateX(-40px);
+}
+
+.image-decor {
+    transform: translateX(-40px);
+    height: 40px;
+    width: 50px;
+}
+
+.modal-decoration {
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal-background {
+    background-color: transparent;
+    height: 100vh;
+}
+
+.close-decor:hover,
+.close-decor {
+    color: white;
+}
+
+.companies-scrolling {
+    background-color: black;
+    padding: 10px;
+}
+
+.scroll-companies {
+    animation-name: scroll;
+    animation-duration: 40s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 24px));
+    }
+}
+
+.speakers-heading {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.rare-collection-decor {
+    background-image: url(https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20\(1\).png);
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+}
+
+.rare-collection-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rare-collection-description {
+    color: #cbd5e1;
+    font-size: 25px;
+}
+
+.button-decor {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+}
+
+.button-decor:focus {
+    background-color: white;
+    color: black;
+}
+
+.rare-collection-teacher-card {
+    background-color: #334155;
+    margin: 10px;
+}
+
+.rare-collection-card-image-decor {
+    width: 100%;
+    height: 240px;
+}
+
+.rcu-card-description {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rcu-card-time {
+    color: #e2e8f0;
+    font-size: 25px;
+}
+
+.rcu-card-name {
+    color: #cbd5e1;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.rcu-card-role {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.rcu-card-link {
+    font-size: 22px;
+}
+
+.modal-background {
+    background-color: #334155;
+    border-radius: 20px;
+    height: 60vh;
+}
+
+.close-decor {
+    color: white !important;
+    width: 50px;
+    height: 50px;
+}
+
+.popup-title-decor {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.topics-taught {
+    color: white;
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.popup-sub-heading {
+    color: white;
+    font-size: 30px;
+}
+
+.teacher-popup-role,
+.popup-caption-decor {
+    color: #e2e8f0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.modal-body::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+.teacher-image-background {
+    background-size: cover;
+    height: 250px;
+    padding: 10px;
+    width: 100%;
+}
+
+.teacher-image-background-Sandeep {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sandeep.png');
+}
+
+.teacher-image-background-Pritesh {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/pritesh.png');
+}
+
+.teacher-image-background-Sanjay {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sanjay.png');
+}
+
+.teacher-image-background-Goutam {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/goutam.png');
+}
+
+.meta-logo-decor {
+    width: 50px;
+    height: 50px;
+}
+
+.trailer-decor {
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #60a5fa;
+    text-align: center;
+    border-width: 0px;
+}
+
+.play-decor {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.video-decor {
+    border-radius: 20px;
+}
+
+.transparent-background {
+    background-color: transparent;
+}
+
+
+.symbol-description-decor {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.claim-access-container {
+    background-color: #0f172a;
+    padding: 20px;
+}
+
+.otp-label-decor {
+    color: white;
+}
+
+.input-decor {
+    background-color: gray;
+    margin: 10px;
+    margin-left: 0px;
+    border-width: 0px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.otp-box-decor {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.testimonials-card-background {
+    background-color: #334155;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 280px;
+}
+
+.testimonials-card-heading {
+    font-size: 20px;
+}
+
+.testimonials-card-subheading {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.testimonials-card-descripion {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.linkedin-link-decor {
+    font-size: 19px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: relative;
+    opacity: 1;
+    color: white;
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+}
+
+.carousel-control-prev {
+    transform: translate(-70px);
+}
+
+.carousel-control-next {
+    transform: translateX(70px);
+}
+
+.carousel-indicators {
+    transform: translateY(70px);
+}
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 80%;
+    background-color: white !important;
+    opacity: 0.25;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.carousel-indicators .active {
+    width: 40px;
+    height: 5px;
+    border-radius: 11px;
+    background-color: white !important;
+}
+
+.testimonials-heading {
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.happy-background {
+    color: #f59e0b;
+    background-color: #713f1230;
+    font-size: 20px;
+    width: 370px;
+    border-radius: 60px;
+    border-color: #f59e0b;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #0f172a;
+    padding: 20px;
+    padding-top: 60px;
+    color: #5a7184;
+}
+
+.footer-heading {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.nxtwave-link-decor {
+    color: #5a7184;
+}
+
+.nxtwave-link-decor:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.address-decor {
+    padding-top: 20px;
+    width: 200px;
+}
+
+.follow-us {
+    background-color: #0f172a;
+    padding: 20px;
+}
