@@ -89,30 +89,49 @@
     padding: 10px;
 }
 
-.scrolling-container {
+.scrolling-container{
     overflow: hidden;
 }
 
 .scroll-companies {
     animation-name: scroll;
-    animation-duration: 40s;
+    animation-duration: 60s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    overflow-x: hidden;
     background-size: cover;
+    min-width: 190%;
 }
 
 @keyframes scroll {
     from {
-        transform: translateX(0px);
+        transform: translateX(0);
     }
 
     to {
-        transform: translateX(calc(-100% - 24px));
+        transform: translateX(-100%);
     }
 }
 
+.scroll-companies1 {
+    animation-name: scroll1;
+    animation-duration: 60s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-size: cover;
+    min-width: 190%;
+}
+
+@keyframes scroll1 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
 .speakers-heading {
     color: white;
     text-align: center;
