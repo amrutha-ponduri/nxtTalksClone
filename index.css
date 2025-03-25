@@ -89,6 +89,10 @@
     padding: 10px;
 }
 
+.scrolling-container {
+    overflow: hidden;
+}
+
 .scroll-companies {
     animation-name: scroll;
     animation-duration: 40s;
