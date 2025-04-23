@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
+body{
+    font-family: 'Roboto';
+}
+
 .background-top {
     padding: 20px;
     padding-top: 60px;
     min-height: 100vh;
-    background-size: cover;
-
 }
 
 .podcast-video {
@@ -13,7 +15,6 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-
 }
 
 .logo-description-decor {
@@ -89,13 +90,13 @@
     padding: 10px;
 }
 
-.scrolling-container{
+.scrolling-container {
     overflow: hidden;
 }
 
 .scroll-companies {
     animation-name: scroll;
-    animation-duration: 60s;
+    animation-duration: 40s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -105,7 +106,7 @@
 
 @keyframes scroll {
     from {
-        transform: translateX(0);
+        transform: translateX(0px);
     }
 
     to {
@@ -115,7 +116,7 @@
 
 .scroll-companies1 {
     animation-name: scroll1;
-    animation-duration: 60s;
+    animation-duration: 40s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -132,6 +133,7 @@
         transform: translateX(-100%);
     }
 }
+
 .speakers-heading {
     color: white;
     text-align: center;
@@ -376,8 +378,8 @@ input::placeholder {
     position: relative;
     opacity: 1;
     color: white;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 70px;
     font-size: 60px;
 }
 
@@ -414,14 +416,13 @@ input::placeholder {
 
 .testimonials-heading {
     font-weight: bold;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .happy-background {
     color: #f59e0b;
     background-color: #713f1230;
     font-size: 20px;
-    width: 370px;
     border-radius: 60px;
     border-color: #f59e0b;
     border-style: solid;
@@ -458,5 +459,4 @@ input::placeholder {
 
 .follow-us {
     background-color: #0f172a;
-    padding: 20px;
 }
